@@ -16,6 +16,20 @@ Install the Python dependencies.
 pip install -r requirements.txt
 ```
 
+Modify the `config.py` file to include your Mistral AI API key.
+
+```python
+LLM_CONFIG = {
+    "config_list": [
+        {
+            "model": "open-mistral-nemo",
+            "api_key": "<your-api-key>",
+            ...
+        }
+    ]
+}
+```
+
 ---
 
 ## Dependencies
